@@ -1,0 +1,15 @@
+<Tipo>
+    <Operacion=SUMA>
+        <Operacion=SUMA>
+            <Numero> 6.7 </Numero>
+            <Numero> 9.3 </Numero>
+        </Operacion>
+        <Operacion=SUMA>
+            <Numero> 5.2 </Numero>
+            <Operacion=MULTIPLICACION>
+                <Numero> 3 </Numero>
+                <Numero> 9 </Numero>
+            </Operacion>
+        </Operacion>
+    </Operacion>
+</Tipo>

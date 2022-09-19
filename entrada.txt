@@ -1,0 +1,17 @@
+<Tipo>
+    <Operacion=SUMA>
+        <Numero> 8 </Numero>
+        <Numero> 7 </Numero>
+    </Operacion>
+</Tipo>
+
+
+
+
+
+
+
+
+
+
+

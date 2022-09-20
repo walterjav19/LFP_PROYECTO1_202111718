@@ -124,10 +124,11 @@ def guardar():
 
 def guardar_como():
     global entry
-    f = filedialog.asksaveasfile(mode='w', defaultextension=".txt")
+    f = filedialog.asksaveasfile(mode='w', defaultextension=".lfp")
     if (f): 
         f.write(entry.get(1.0,"end"))
         f.close()
+        messagebox.showinfo("Aviso","Archivo guardado correctamente")
 
 
     

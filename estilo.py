@@ -10,7 +10,7 @@ class Estilo(Expression):
             self.column = column
     
         def ejecutar(self, getER):
-            return {self.instruccion, self.color, self.tamanio}
+            return None
+            return [self.instruccion, self.color, self.tamanio]
 
-        def ejecutar_resultado(self, getER):
-            return {self.instruccion, self.color, self.tamanio}   
+

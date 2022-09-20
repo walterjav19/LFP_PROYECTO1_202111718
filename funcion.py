@@ -10,4 +10,5 @@ class Funcion(Expression):
         self.column = column
     
     def ejecutar(self, getER):
-        return {self.titulo, self.descripcion, self.contenido}
+        return None
+        return [self.titulo, self.descripcion, self.contenido]

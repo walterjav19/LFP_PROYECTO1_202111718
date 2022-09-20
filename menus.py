@@ -173,9 +173,10 @@ def analizar():
             for var in variable:
                 if isinstance(var, list):
                     for var_ in var:
-                        cuerpo+='''<h4><p>Operacion '''+str(i)+''':</p></h4>
+                        if var_.ejecutar(getER)!=None and var_.ejecutar(getER2)!=None:
+                            cuerpo+='''<h4><p>Operacion '''+str(i)+''':</p></h4>
     <p>'''+str(var_.ejecutar(getER))+'''='''+str(var_.ejecutar(getER2))+'''</p>
-    '''
+    '''         
                         print(var_.ejecutar(getER))
                         print(var_.ejecutar(getER2))
                         i+=1
